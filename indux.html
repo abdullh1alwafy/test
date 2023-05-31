@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang=ar dir=rtl>
+<head>
+    <title>abduallh</title>
+<meta charset="UTF-8">
+<META NAME="viewport" content="width=device-width">
+<meta name="description" content="اللؤضق">
+<meta namne="keywords" content="">
+<link rel="icon" href="image.jpg">
+<link rel="shortcut" href="image.jpg">
+<link rel="apple-touch-icon" href="image.jpg">
+</head>
+<body>
+    <button onclick="openDialog1()">فتج </button>
+<dialog id="teest">
+    <img src="image.jpg" width="200"/>
+    <br>
+    <pre id="edit">libya a a a a    1</pre>
+    <button onclick="closeDialog1()">close</button>
+    <br>
+    <button onclick="reset()" >تغدبل</button>
+    <button onclick="save()">saveee</button>
+</dialog>
+<script>
+    function openDialog1(){
+        document.getElementById("teest").setAttribute("open","true");
+}
+function closeDialog1(){
+        document.getElementById("teest").removeAttribute("open",);
+}
+function reset(){
+    document.getElementById("edit").contentEditable ="true";
+}
+function save(){
+    document.getElementById("edit").contentEditable ="false";
+}
+</script>
+</body>
+</html>
+
+
+<!-- <meta name="twitter_card" content="summary_large_image">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:site" content="">
+<meta name="twitter:creator" content="">
+<meta name="twitter_image" content="">
+<meta porperty="og:title" content=""/>
+<meta porperty="og:description" content=""/>
+<meta porperty="og:image" content=""/>
+<meta porperty="og:image:height" content=""/>
+<meta porperty="og:image:width" content=""/>
+<meta porperty="og:type" content=""/>
+-->
